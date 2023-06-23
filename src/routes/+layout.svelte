@@ -75,11 +75,41 @@
       ${isMenuOpen ? 'visible h-full opacity-100' : 'invisible h-0 opacity-0'}
     `}
   >
-    <div
-      class="px-5 py-12"
+    <nav
+      class="px-5 py-2"
     >
-      Home
-    </div>
+      <ul class="text-3xl font-flame">
+        <li class="mb-3">
+          <a
+            href="/"
+            class="pt-2 pb-3 block"
+            on:click={() => { isMenuOpen = false }}
+          >
+            Home
+          </a>
+        </li>
+        <li class="mb-3">
+          <a
+            href="/"
+            class="pt-2 pb-3 block"
+            on:click={() => { isMenuOpen = false }}
+          >
+            <span class="text-sm leading-[0.5rem] text-bk-yellow block">Delivery</span>
+            Order
+          </a>
+        </li>
+        <li class="mb-3">
+          <a
+            href="/"
+            class="pt-2 pb-3 block"
+            on:click={() => { isMenuOpen = false }}
+          >
+            <span class="text-sm leading-[0.5rem] text-bk-yellow block">Get Fresh</span>
+            Promotions
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </div>
 
@@ -88,13 +118,51 @@
 <slot />
 
 <footer
-  class="bg-bk-stone text-white"
+  class="bg-bk-stone text-white text-sm p-8"
 >
-  <div>
-    <span
-      class="text-bk-muted"
-    >
-      TM & © 2023 Burger King Corporation. Used Under License. All rights reserved.
-    </span>
+  <div class="max-w-screen-lg mx-auto px-4">
+    <p class="text-center font-flame text-2xl mb-3">
+      BURGER KING® DELIVERY
+    </p>
+
+    <div class="text-center mb-3">
+      <a
+        href="/"
+        class="font-flame text-2xl px-3"
+      >
+        15000 25
+      </a>
+      <a
+        href="/"
+        class="px-3"
+      >
+        guestservice@burgerking.co.id
+      </a>
+    </div>
+
+    <div>
+      <ul class="text-center mb-5">
+        <li class="mb-3">
+          <a href="/">
+            About Us
+          </a>
+        </li>
+        <li class="mb-3">
+          <a href="/">
+            Kebijakan Privasi
+          </a>
+        </li>
+        <li class="mb-3">
+          <a href="/">
+            Syarat dan Ketentuan
+          </a>
+        </li>
+      </ul>
+      <p
+        class="text-bk-muted text-center"
+      >
+        TM & © 2023 Burger King Corporation. Used Under License. All rights reserved.
+      </p>
+  </div>
   </div>
 </footer>

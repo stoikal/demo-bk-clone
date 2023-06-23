@@ -12,10 +12,12 @@ export default {
         12.5: '3.125rem'
       },
       fontSize: {
+        sm: ['15px', '22px'],
         '3xl': '2rem', // 32px
         '4xl': '2.375rem' // 38px
       },
       fontFamily: {
+        sans: ['Barlow-Medium', 'sans-serif'],
         flame: ['Flame', 'sans-serif'],
         'flame-bold': ['Flame-Bold', 'sans-serif']
       }
@@ -30,7 +32,8 @@ export default {
         stone: '#2d2d2d',
         orange: '#ed7801',
         red: '#ff0000',
-        brown: '#8b542f'
+        brown: '#8b542f',
+        yellow: '#faaf18'
       }
     }
   },
