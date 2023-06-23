@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Flame';
+  src: url('./assets/font/Flame-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Flame-Bold';
+  src: url('./assets/font/Flame-Bold.woff') format('woff');
+  font-weight: normal;
+}
+

@@ -10,6 +10,14 @@ export default {
       spacing: {
         7.5: '1.875rem',
         12.5: '3.125rem'
+      },
+      fontSize: {
+        '3xl': '2rem', // 32px
+        '4xl': '2.375rem' // 38px
+      },
+      fontFamily: {
+        flame: ['Flame', 'sans-serif'],
+        'flame-bold': ['Flame-Bold', 'sans-serif']
       }
     },
     colors: {

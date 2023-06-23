@@ -15,10 +15,9 @@
 
 <div
   class="
-    bg-bk-stone text-white w-full fixed shadow-xl
+    bg-bk-stone text-white w-full fixed shadow-xl top-0
   "
 >
-
   <div
     class="
       flex h-12.5 m-x-auto
@@ -84,18 +83,7 @@
   </div>
 </div>
 
-<!-- <div
-  bg="bk-stone"
->
-  <div
-    absolute
-    h="full"
-    w="full"
-    bg="bk-stone"
-  >
-    drawer
-  </div>
-</div> -->
+<div class="h-12.5" />
 
 <slot />
 
