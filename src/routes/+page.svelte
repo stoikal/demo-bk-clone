@@ -13,7 +13,7 @@
     <div class="flex flex-wrap">
       {#each data.categories as category}
         <div class="w-1/2 lg:w-1/3 p-[1%]">
-          <a href="/">
+          <a href={`/menus/${category.id}`}>
             <div
               class="h-full bg-white rounded-lg p-1.5 pb-2.5 sm:p-5"
               style="box-shadow: 2px 2px 15px -4px #6b6b6b;"

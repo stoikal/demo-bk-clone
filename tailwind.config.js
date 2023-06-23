@@ -30,9 +30,11 @@ export default {
       bk: {
         muted: '#919191',
         stone: '#2d2d2d',
+        lightorange: '#fbe6d6',
         orange: '#ed7801',
         red: '#ff0000',
         brown: '#8b542f',
+        mocha: '#502314',
         yellow: '#faaf18'
       }
     }
