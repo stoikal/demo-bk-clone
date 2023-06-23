@@ -14,9 +14,8 @@
 </script>
 
 <div
-  class="
-    bg-bk-stone text-white w-full fixed shadow-xl top-0
-  "
+  class="bg-bk-stone text-white w-full fixed top-0"
+  style="box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);"
 >
   <div
     class="
