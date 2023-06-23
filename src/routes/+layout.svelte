@@ -89,7 +89,7 @@
         </li>
         <li class="mb-3">
           <a
-            href="/"
+            href="/menus"
             class="pt-2 pb-3 block"
             on:click={() => { isMenuOpen = false }}
           >
@@ -98,14 +98,14 @@
           </a>
         </li>
         <li class="mb-3">
-          <a
+          <span
             href="/"
-            class="pt-2 pb-3 block"
-            on:click={() => { isMenuOpen = false }}
+            disabled
+            class="pt-2 pb-3 block cursor-not-allowed"
           >
             <span class="text-sm leading-[0.5rem] text-bk-yellow block">Get Fresh</span>
             Promotions
-          </a>
+          </span>
         </li>
       </ul>
     </nav>

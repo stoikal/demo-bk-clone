@@ -4,7 +4,7 @@
 
 <div class="bg-[url(/BK_bg.jpg)] bg-no-repeat bg-cover bg-fixed">
   <div
-    class="max-w-screen-lg mx-auto px-2 py-10"
+    class="max-w-screen-lg mx-auto px-2 py-6 md:py-10"
   >
     <h1 class="font-flame-bold text-center text-xl sm:text-3xl text-bk-brown mb-1 sm:mb-6">
       Our Menus
