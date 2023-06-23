@@ -55,7 +55,7 @@
       class="flex flex-1 justify-end"
     >
       <button
-        class="bg-bk-orange h-12.5 px-3"
+        class="bg-bk-orange h-12.5 px-3 cursor-not-allowed"
       >
         <img
           src={cart}
