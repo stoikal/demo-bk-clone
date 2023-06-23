@@ -100,7 +100,6 @@
         <li class="mb-3">
           <span
             href="/"
-            disabled
             class="pt-2 pb-3 block cursor-not-allowed"
           >
             <span class="text-sm leading-[0.5rem] text-bk-yellow block">Get Fresh</span>
