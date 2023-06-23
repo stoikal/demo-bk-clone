@@ -1,5 +1,5 @@
 <div
-  h="60"
+  class="h-[960px]"
 >
   index
 </div>
