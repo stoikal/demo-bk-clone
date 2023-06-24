@@ -17,7 +17,7 @@
         <div class="pb-2 pr-6">
           <a
             href={`/menus/${c.id}`}
-            class="text-bk-mocha px-5 py-1.5 rounded-lg flex items-center min-h-[52px] "
+            class="text-bk-mocha px-5 py-1.5 rounded-lg flex items-center min-h-[52px] focus:bg-bk-orange transition-color"
             class:bg-bk-yellow={c.id === data.category.id}
             class:bg-bk-lightorange={c.id !== data.category.id}
           >

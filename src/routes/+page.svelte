@@ -1,15 +1,16 @@
 <script>
+  import BannerCarousel from '../lib/BannerCarousel.svelte'
   export let data
 </script>
 
 <div class="bg-[url(/BK_bg.jpg)] bg-no-repeat bg-cover bg-fixed">
+  <BannerCarousel />
   <div
     class="max-w-screen-lg mx-auto px-2 py-6 md:py-10"
   >
     <h1 class="font-flame-bold text-center text-xl sm:text-3xl text-bk-brown mb-1 sm:mb-6">
       Our Menus
     </h1>
-
     <div class="flex flex-wrap">
       {#each data.categories as category}
         <div class="w-1/2 lg:w-1/3 p-[1%]">

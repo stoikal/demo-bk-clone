@@ -31,6 +31,7 @@ export default {
         muted: '#919191',
         stone: '#2d2d2d',
         lightorange: '#fbe6d6',
+        mutedorange: '#f1bc87',
         orange: '#ed7801',
         red: '#ff0000',
         brown: '#8b542f',
