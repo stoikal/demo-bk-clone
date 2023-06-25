@@ -14,10 +14,9 @@
     { id: 9, image: '/banners/ramadhan.jpg' }
   ]
 
-  // Current active banner
+  // Current active banner index
   let activeBanner = 0
 
-  // Function to switch to the next banner
   function nextBanner () {
     activeBanner = (activeBanner + 1) % banners.length
   }
@@ -37,8 +36,8 @@
   })
 </script>
 
-<div class="relative overflow-hidden">
-  <div class="aspect-[16/5]">
+<div class="overflow-hidden">
+  <div class="relative aspect-[16/5]">
     {#each banners as banner, index}
       <div
         class="absolute transition w-full"
@@ -53,6 +52,21 @@
         />
       </div>
     {/each}
+
+    <button
+      class="absolute left-[2%] top-[50%] -translate-y-[50%] text-transparent bg-[url(/slider-arrow-left.png)] bg-contain h-6 w-6 sm:h-12 sm:w-12"
+      on:click={prevBanner}
+    >
+      prev
+    </button>
+
+    <button
+      class="absolute right-[2%] top-[50%] -translate-y-[50%] text-transparent bg-[url(/slider-arrow-right.png)] bg-contain h-6 w-6 sm:h-12 sm:w-12"
+      on:click={nextBanner}
+    >
+      prev
+    </button>
+
   </div>
   <div class="text-center leading-4">
     {#each banners as banner, index}
